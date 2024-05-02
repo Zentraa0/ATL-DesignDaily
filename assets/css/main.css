@@ -1,0 +1,120 @@
+body{
+    padding: 40px 0;
+    color: var(--colorPrimary);
+    line-height: 1.5;
+}
+.page{
+    background: #fcfcff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.page__header{
+    text-align: center;
+    padding: 40px;
+    line-height: 54px;
+    border-bottom: 1px solid var(--colorBorder);
+}
+.logo{
+    line-height: 54px;
+}
+.page__header .navbar{
+    height: 40px;
+    line-height: 40px;
+}
+.navbar__link{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    display: inline-block;
+    border-radius: 32px;
+}
+.navbar__link.active{
+    background: #f1f1fd;
+}
+.navbar a:not(:first-child):hover{
+    line-height: 44px;
+    background-color: #f1f1fd;
+    opacity: 1;
+    color: #202142;
+    border-radius: 32px;
+}
+.btn:hover{
+    background-color: #6868ff;
+    color: #fff;
+    border-radius: 10px;
+}
+.page__search > *{
+    width: 650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.page__search{
+    position: relative;
+    padding: 90px 0 122px;
+}
+.brands__link{
+   line-height: 15px;
+}
+.day{
+    width: 106px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #ff6a95;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.page__card{
+    background: #fff;
+    padding: 40px 50px 60px;
+}
+
+.tab{
+    width:210px ;
+    background: #FCFCFF;
+}
+
+.card__head .filter{
+    height: 44px;
+    line-height: 65px;
+    border-color: var(--colorBorder);
+    
+}
+.filter button:not(:first-child):hover{
+    line-height: 44px;
+    background-color: #f1f1fd;
+    opacity: 1;
+    color: #202142;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.brands button:hover{
+    border: 1px solid var(--colorBrandsBorder);
+    cursor: pointer;
+}
+.card__item{
+    width: calc(33% - 22px);
+    position: relative;
+}
+.card__item__photo{
+    height: 319px;
+    object-fit: cover;
+}
+.card__item__inner{
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+.card__active-brand{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #fff;
+    border: none;
+}
